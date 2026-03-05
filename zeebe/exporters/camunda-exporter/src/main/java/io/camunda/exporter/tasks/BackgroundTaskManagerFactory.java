@@ -116,6 +116,7 @@ public final class BackgroundTaskManagerFactory {
   }
 
   public BackgroundTaskManager build() {
+    // start point
     executor = buildExecutor();
 
     // initialize all repositories based on connection type to reuse clients
